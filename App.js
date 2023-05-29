@@ -30,7 +30,7 @@ function App() {
           formattedDate, 
           patients[0].description, 
           patients[0].room, 
-          "Kävele portaat ylös ja käänny 4 kertaa vasemmalle. ÅÖÄ ÜôÕÇΩД")
+          patients[0].guide)
       })
       .catch((err) => {
         console.log(err.message);
